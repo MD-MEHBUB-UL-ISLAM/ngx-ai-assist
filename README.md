@@ -1,60 +1,39 @@
-# Workspace
+# 🤖 NGX AI Assist
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 21.2.7.
+[![GitHub Package](https://img.shields.io/badge/GitHub-Package-blue?logo=github)](https://github.com/users/MD-MEHBUB-UL-ISLAM/packages/npm/package/ngx-ai-assist)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Angular](https://img.shields.io/badge/Angular-%3E%3D16.0.0-red)](https://angular.io/)
+[![TypeScript](https://img.shields.io/badge/TypeScript-5.0+-blue)](https://www.typescriptlang.org/)
 
-## Development server
+**AI-powered components for Angular applications.** Drop-in components that bring the power of AI to your users - no complex integration required.
 
-To start a local development server, run:
+## ✨ Features
 
-```bash
-ng serve
-```
+| Component | Description |
+|-----------|-------------|
+| 🤖 **AI Chat Widget** | Conversational interface with streaming support and markdown rendering |
+| 📝 **Smart Autocomplete** | Context-aware text suggestions with confidence scoring |
+| ✍️ **Content Generator** | Generate text, emails, blog posts, code, and translations |
+| 😊 **Sentiment Analysis** | Detect emotional tone with confidence scores |
+| 🔍 **Semantic Search** | Intelligent document ranking and relevance scoring |
+| 📋 **Form Assistant** | AI-powered form field suggestions |
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+## 🎯 Supported AI Providers
 
-## Code scaffolding
+- ✅ **OpenAI** (GPT-4, GPT-3.5-Turbo)
+- ✅ **Custom Endpoints** (Bring your own API)
+- 🚧 **Anthropic Claude** (Coming soon)
+- 🚧 **Google AI** (Coming soon)
+- 🚧 **Ollama** (Local LLM support coming soon)
 
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
-
-```bash
-ng generate component component-name
-```
-
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
-
-```bash
-ng generate --help
-```
-
-## Building
-
-To build the project run:
+## 📦 Installation
 
 ```bash
-ng build
-```
+# Configure GitHub Packages registry
+npm config set @md-mehbub-ul-islam:registry https://npm.pkg.github.com
 
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
+# Login to GitHub Packages (requires Personal Access Token with read:packages)
+npm login --registry=https://npm.pkg.github.com
 
-## Running unit tests
-
-To execute unit tests with the [Vitest](https://vitest.dev/) test runner, use the following command:
-
-```bash
-ng test
-```
-
-## Running end-to-end tests
-
-For end-to-end (e2e) testing, run:
-
-```bash
-ng e2e
-```
-
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
-
-## Additional Resources
-
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
-"# ngx-ai-assist" 
+# Install the package
+npm install @md-mehbub-ul-islam/ngx-ai-assist
